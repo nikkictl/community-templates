@@ -125,7 +125,7 @@ spec:
     language: flux
     query: |-
         option params = {
-          bucket: "telegraf"
+          bucket: "v.bucket"
         }
         import "influxdata/influxdb/v1"
         v1.measurementTagValues(bucket: params.bucket, measurement: "cpu", tag: "host")
@@ -426,7 +426,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -456,7 +456,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -484,7 +484,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -505,7 +505,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -535,7 +535,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -565,7 +565,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -589,7 +589,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -618,7 +618,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -646,7 +646,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -668,7 +668,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -712,7 +712,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
@@ -741,7 +741,7 @@ spec:
         queries:
           - query: |-
                 option params = {
-                  bucket: "telegraf"
+                  bucket: "v.bucket"
                 }
 
                 from(bucket: params.bucket)
